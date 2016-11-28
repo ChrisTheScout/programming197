@@ -1,0 +1,9 @@
+#include <stdio.h>
+
+void main(void) {
+    int num = 0;
+    
+    printf("Please enter a number: ");
+    scanf("%d", &num);
+    printf("%d", num);
+}
